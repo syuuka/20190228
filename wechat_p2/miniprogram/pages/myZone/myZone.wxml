@@ -1,0 +1,24 @@
+<view class='collection_line'>
+  <view class='message'>收藏的影评</view>
+  <image src='../../images/down.png' class='icon'></image>
+</view>
+<view class='list'>
+  <view class='review_item' wx:for="{{movies}}" wx:for-item="movie">
+    <view class='review_item_view'>
+      <image class='review_item_view_img' src='{{movie.image}}'></image>
+    </view>
+    <view class='review_item_text'>
+      <text class='review_item_title'>{{movie.title}}</text>
+      <text class='review_item_review'>{{movie.review}}</text>
+      <view class='user_line'>
+        <image class='user_head' src='{{movie.user.userHead}}'></image>
+        <text class='user'>{{movie.user.userName}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='bottomLine'>
+    <view class='bottomLine_botton' bindtap='goHotMovieList'>
+      回到首页
+    </view>
+  </view>

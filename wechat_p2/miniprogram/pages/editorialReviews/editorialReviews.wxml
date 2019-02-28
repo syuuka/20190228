@@ -1,0 +1,13 @@
+<view class='movie-container'>
+  <view class='movie-detail'>
+    <image class='film_detail_image' src='{{movie.image}}'></image>
+    <view class='movie-title'>{{movie.title}}</view>
+      <view class='movie-description'>
+        <textarea placeholder='输入你的影评内容' placeholder-style='font-size:30rpx' bindblur='confirm' class='text_aera'></textarea>
+      </view>
+      <button type='default' class='btn-wrapper'>
+        <image src='/images/record.png' class="icon"></image>
+        <view class='btn-text'>录音</view>
+      </button>
+  </view>
+</view>

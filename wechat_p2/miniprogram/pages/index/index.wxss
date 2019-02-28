@@ -1,0 +1,36 @@
+.main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.index{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50rpx 80rpx;
+  height: 100%;
+}
+
+.hotMovie_image{
+  width: 80%;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.6);
+  margin-bottom: 50rpx;
+}
+
+.hotMovie_title{
+  align-content: center;
+  font-size: 50rpx;
+  line-height: 70rpx;
+  margin-bottom: 10rpx;
+}
+
+.hotMovie_line{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hotMovie_message{
+  font-size: 30rpx;
+}

@@ -1,0 +1,82 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+.user_head{
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 28rpx;
+}
+
+.user{
+  font-size: 30rpx;
+  line-height: 42rpx;
+  opacity: 0.6;
+  margin-left: 10rpx;
+}
+
+.review_item_view{
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.review_item_view_img{
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.review_item_text{
+  width: 100%;
+  margin: 60rpx;
+}
+
+.review_item_title{
+  display: flex;
+  font-weight: bolder;
+  font-size: 40rpx;
+  align-items: center;
+  font-family: SimHei;
+}
+
+.review_item_review{
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+
+.user_line{
+  display: flex;
+  margin-top: 10rpx;
+}
+
+.bottomLine{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100rpx;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(111, 170, 238, 0.2);
+  z-index: 999;
+}
+.bottomLine_botton{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+
+.icon{
+  height: 56rpx;
+  width: 56rpx;
+  margin-right: 10rpx;
+}

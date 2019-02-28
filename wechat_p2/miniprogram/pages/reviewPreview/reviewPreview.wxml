@@ -1,0 +1,11 @@
+<view class='movie-container'>
+  <view class='movie-detail'>
+    <image class='film_detail_image' src='{{movie.image}}'></image>
+    <view class='movie-title'>{{movie.title}}</view>
+      <view class='hotMovie_line'>
+        <image src="{{user_head}}" class='user_head'></image>
+        <view class='user'>{{recommender}}  </view>
+        <view class='hotMovie_message' >{{recommendMessage}}</view>
+      </view>
+  </view>
+</view>

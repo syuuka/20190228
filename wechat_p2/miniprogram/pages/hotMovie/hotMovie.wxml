@@ -1,0 +1,14 @@
+<view class='list'>
+<view class="review_item" wx:for="{{movies}}" wx:for-item="movie">
+  <view class='review_item_view'>
+    <view class='review_item_view'>
+      <image class='review_item_view_img' src='{{movie.image}}'></image>
+    </view>
+  </view>
+  <view class='review_item_text'>
+    <text class='review_item_title'>{{movie.title}}</text>
+    <text class='review_item_catalog'>类型：{{movie.catlog}}</text>
+  </view>
+  <view></view>
+</view>
+</view>

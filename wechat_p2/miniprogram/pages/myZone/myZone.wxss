@@ -1,0 +1,39 @@
+page{
+  background-color: rgba(247, 249, 251, 1);
+}
+.collection_line{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 300rpx;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 249, 251, 1)
+}
+
+.icon {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.message{
+  color: orange;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(247, 249, 251, 1);
+  width:100%;
+}
+
+.review_item {
+  height: 300rpx;
+  width: 80%;
+  display: flex;
+  border: 5rpx solid rgba(0, 0, 0, 0.1);
+  margin-top: 30rpx;
+  background-color: rgba(255, 255, 255, 1);
+}
